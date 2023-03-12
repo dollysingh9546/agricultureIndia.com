@@ -1,0 +1,92 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Indian Agronomy</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/jquery-1.7.1.min.js"></script>
+<script src="js/superfish.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/tms-0.4.1.js"></script>
+<script src="js/slider.js"></script>
+<!--[if lt IE 9]>
+<script src="js/html5.js"></script>
+<link rel="stylesheet" href="css/ie.css"> 
+<![endif]-->
+</head>
+<body>
+<div class="main-bg">
+  <!-- Header -->
+  <header>
+    <div class="inner">
+      <h1><a href="index.html">Indian Agronomy</a></h1>
+      <nav>
+      <ul class="sf-menu">
+          <li class="current"><a href="index.html">home</a></li>
+        <li><a href="fruit.jsp">Fruit</a></li>
+        <li> <a href="vegetable.jsp">Vegetable</a></li>
+
+      </nav>
+      <div class="clear"></div>
+    </div>
+    <div class="slider-container">
+      <div class="mp-slider">
+        <ul class="items">
+          <li><img src="images/slide-1.jpg" alt="">
+            <div class="banner mp-ban-1"><span class="row-1">putting our</span><span class="row-2">heart &amp; soul</span><span class="row-3">into the field</span></div>
+          </li>
+          <li><img src="images/slide-2.jpg" alt="">
+            <div class="banner mp-ban-2"><span class="row-1">we have a strong</span><span class="row-2">agriculture</span><span class="row-3">heritage</span></div>
+          </li>
+          <li><img src="images/slide-3.jpg" alt="">
+            <div class="banner mp-ban-3"><span class="row-1">growing clean</span><span class="row-2">and full of health</span><span class="row-3">products</span></div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <a href="#" class="mp-prev"></a> <a href="#" class="mp-next"></a> </header>
+  <!-- Content -->
+  <section id="content">
+    <div class="container_24">
+      <div class="wrapper">
+        <div class="grid_24 content-bg">
+          <div class="wrapper">
+            <div class="grid_16 suffix_1 prefix_1 alpha">
+              <article class="indent-bot">
+                <h2>Our products:</h2>
+                <div class="wrapper hr-border-1">
+                  
+                  <div class="grid_4"> <img src="images/fruitvegetable.jpg" class="img-indent-bot" alt="">
+                    <dl class="def-list-1">
+                      <dt> <a href="#">Fruits and Vegetables</a> </dt>
+                    </dl>
+                  </div>
+                  <div class="grid_4"> <img src="images/fertilizer.jpg" class="img-indent-bot" alt="">
+                    <dl class="def-list-1">
+                      <dt> <a href="#">Fertilizers</a> </dt>
+                    </dl>
+                  </div>
+                                    <div class="grid_4"> <img src="images/cropseed.jpg" class="img-indent-bot" alt="">
+                    <dl class="def-list-1">
+                      <dt> <a href="#">Crops and Seeds</a> </dt>
+                    </dl>
+                  </div>
+           
+                </div>
+              </article>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+   
+</div>
+</body>
+</html>
+
+</body>
+</html>

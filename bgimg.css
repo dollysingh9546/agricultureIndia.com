@@ -1,0 +1,7 @@
+@CHARSET "ISO-8859-1";
+#pictures {
+  background: url("images/agro.jpg");
+  background-size: 80px 60px;
+  background-repeat: no-repeat;
+  padding-top: 40px;
+}
